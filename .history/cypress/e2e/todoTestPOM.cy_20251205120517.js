@@ -5,7 +5,7 @@
 // Importamos la instancia de la clase Tareas
 import { gestiontarea } from "../support/PageObject/GestionTareas";
 
-describe('Test ToDo con estructura de POM solicitada.', () => {
+describe('Test ToDo con estructura de POM solicitada', () => {
 
     it("1. Agregar tarea a la lista", () => {
         gestiontarea.agregarUnaTareaSimple();
